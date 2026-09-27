@@ -28,6 +28,27 @@ Video:
 ```
 git clone https://github.com/aelof1/Beelogger.git
 ```
+### Running:
+```
+cd BeeLogger
+```
+```
+sudo su
+```
+```
+chmod +x install.sh
+```
+```
+./install.sh
+```
+```
+python bee.py
+```
+If you have another version of Python
+Exemple Version Of Python : 3.7
+```
+python3.7 bee.py
+```
 
 ### Running: Follow the YouTube Video ###
 
