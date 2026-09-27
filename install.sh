@@ -41,8 +41,8 @@ mkdir -p "$WINEPREFIX"  # Ensuring directory exist !
 # Then Init
 wineboot --init
 echo "[INFO] Setting Windows version to Win11..."
-winetricks -q win11
-winetricks -q vcrun2022
+#winetricks -q win11
+#winetricks -q vcrun2022
 
 # ---------- INSTALL PYTHON EMBED ----------
 echo "[INFO] Downloading Python 3.13.7 embeddable..."
