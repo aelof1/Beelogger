@@ -18,7 +18,6 @@ sudo apt-get update -y
 sudo apt-get install -y \
     wine64 \
     wine32 \
-    winetricks \
     wget \
     curl \
     unzip \
