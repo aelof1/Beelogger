@@ -1,6 +1,6 @@
 # BeeLogger
 
-**Project maintained by OpenSkill Factory with the approval of the original author Alisson Moretto (4w4k3).**
+**Project maintained by aelof1 with the approval of the original author Alisson Moretto (4w4k3).**
 Original work © 2017 – BeeLogger
 Written by: * **Alisson Moretto** - [4w4k3](https://github.com/4w4k3)
 Twitter: @4w4k3Official
