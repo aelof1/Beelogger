@@ -1,9 +1,13 @@
 #!/bin/bash
 
-# INFORMATION: Why using wine64??
-# Because we want to create 64bit executables with PyInstaller and use the new version of Python from 2.7 to 3.13.7
-# Without wine64 we could not generate Windows executables on Linux, only Linux binaries.
-# !! Wine architecture is dictated by the environment variable !!
+# INFORMATION READ BEFORE EXEC PLEASE !
+# We use Wine 64-bit to run the Windows version of Python and PyInstaller
+# from Linux. This allows PyInstaller to build Windows executables
+# using the Windows Python environment on Linux.
+#
+# WINEARCH=win64 forces the Wine prefix to use a 64-bit Windows environment.
+# wine32 is intentionally NOT installed because this project targets
+# 64-bit Windows executables only. No need wine32 anymore !
 
 set -e
 
@@ -17,7 +21,6 @@ sudo dpkg --add-architecture i386
 sudo apt-get update -y
 sudo apt-get install -y \
     wine64 \
-    wine32 \
     wget \
     curl \
     unzip \
